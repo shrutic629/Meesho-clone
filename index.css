@@ -146,6 +146,44 @@ body {
 .divisions li a{
     color: black;
     text-decoration: none;
+    position: relative;
+}
+.hover-box{
+    width: 100%;
+    border: 1px solid red;
+    position: absolute;
+    /* padding: 100px 100px; */
+    margin-top: 20px;
+    /* display: none; */
+    display: flex;
+}
+.women-ethnic{
+    width: 16%;
+    border: 1px solid black;
+}
+.sarees{
+    width: 16%;
+    border: 1px solid black;
+}
+.kurtis{
+    width: 16%;
+    border: 1px solid black;
+}
+.kurta-sets{
+    width: 16%;
+    border: 1px solid black;
+}
+.suits-dress{
+    width: 16%;
+    border: 1px solid black;
+}
+.other-ethnic{
+    width: 16%;
+    border: 1px solid black;
+}
+.divisions a:hover{
+display: block;
+color: red;
 }
 .header3-L div i{
     margin-right:10px;
@@ -843,13 +881,14 @@ body {
     background-color: rgb(248, 248, 255);
     /* padding: 5%; */
     margin-top: 40px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .contact-career-inner-box{
     margin: 4%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     padding: 10px;
     display: flex;
+    
 }
 .shop-non-stop-box{
     width: 30%;
@@ -886,20 +925,58 @@ body {
     height: 2.5rem;
 }
 .careers{
+    width: 30%;
     display: flex;
     font-size: 0.9rem;
-    color: rgb(94, 93, 93);
     font-weight: 600;
     letter-spacing: 1px;
+    /* border: 1px solid purple; */
+}
+.careers a{
+    text-decoration: none;
+    color: rgb(105, 103, 103);
 }
 .career-L{
-
+    width: 40%;
+    /* border: 1px solid blue; */
+    padding-left: 20px;
 }
 .career-R{
-    
+    width: 60%;
+    /* border: 1px solid green; */
+    padding-left: 10px;
 }
 .careers ul li{
     list-style: none;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding-bottom: 17px;
+}
+.reach-out-box{
+    width: 16%;
+    /* border: 1px solid black; */
+    letter-spacing: 1px;
+}
+.logos-box{
+    width: 73%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.social-media-logo img{
+    height: 1.1rem;
+    /* border: 1px solid black; */
+    /* padding: 5px; */
+}
+.contact-us-box {
+    letter-spacing: 1px;
+    width: 15%;
+}
+.contact-us-box p{
+    font-size: 0.6rem;
+    padding-top: 15px;
 }
 
 .footer-info-container {
