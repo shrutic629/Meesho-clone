@@ -141,50 +141,33 @@ body {
     justify-content: space-evenly;
     font-size: 0.8rem;
     letter-spacing: 1px;
-    position: sticky;
+    /* position: sticky; */
 }
 .divisions li a{
     color: black;
     text-decoration: none;
     position: relative;
 }
-.hover-box{
-    width: 100%;
+.divisions li a:hover{
+    color: rgb(160, 21, 160);
+    font-weight: 600;
+    /* text-decoration-line: overline; */
+}
+.Women-ethnic-sub-box{
     border: 1px solid red;
     position: absolute;
-    /* padding: 100px 100px; */
-    margin-top: 20px;
-    /* display: none; */
+    margin-top: 14px;
     display: flex;
 }
-.women-ethnic{
-    width: 16%;
-    border: 1px solid black;
+.wom-eth-sub-sub1{
+    padding-left: 20px;
+    background-color: white;
 }
-.sarees{
-    width: 16%;
-    border: 1px solid black;
+.wom-eth-sub-sub2{
+    padding-left: 20px;
+    background-color: rgb(248, 248, 255);
 }
-.kurtis{
-    width: 16%;
-    border: 1px solid black;
-}
-.kurta-sets{
-    width: 16%;
-    border: 1px solid black;
-}
-.suits-dress{
-    width: 16%;
-    border: 1px solid black;
-}
-.other-ethnic{
-    width: 16%;
-    border: 1px solid black;
-}
-.divisions a:hover{
-display: block;
-color: red;
-}
+
 .header3-L div i{
     margin-right:10px;
 }
