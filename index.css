@@ -9,6 +9,7 @@ html{
 
 body {
     font-family: sans-serif; 
+    min-width: 425px;
 }
 .head{
     position: sticky;
@@ -147,7 +148,7 @@ body {
     width: 212px;
     border-radius: 10px;
     display: none;
-    /* z-index: 1; */
+    z-index: 99;
 }
 .download-dropbox h3{
     font-size: 0.9rem;
@@ -267,7 +268,7 @@ body {
     color: black;
 }
 .lowest-price-box{
-    width: 100vw;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -275,7 +276,7 @@ body {
     /* border: 1px solid red; */
 }
 .LP-inner-box{
-    height: 55vh;
+
     width: 80%;
     /* border: 2px solid black; */
     display: flex;
@@ -412,7 +413,7 @@ body {
     align-items: center;
 }
 .be-fashion-inner-box{
-    height: 27rem;
+  
     width: 75%;
     /* border: 1px solid black; */
     /* padding: 8%; */
@@ -420,6 +421,7 @@ body {
     background-position: center;
     background-size: cover;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: end;
     padding-bottom: 3%;
@@ -442,7 +444,7 @@ body {
     padding-top: 4%;
 }
 .essential-inner-box{
-    height: 27rem;
+
     width: 75%;
     background-image: url(https://images.meesho.com/images/marketing/1709187868590_1200.webp);
     background-position: center;
@@ -500,7 +502,7 @@ body {
     padding-top: 4%;
 }
 .new-style-inner-box{
-    height: 27rem;
+   
     width: 75%;
     /* border: 1px solid black; */
     background-image: url(	https://images.meesho.com/images/marketing/1709188185381_1200.webp);
@@ -513,7 +515,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 4%;
+    margin-top:4%;
 }
 .reseller-inner-box{
     height: 27rem;
@@ -639,7 +641,8 @@ body {
 .reg-div1 {
     width: 100%;
     display: flex;
-    /* border: 1px solid white; */
+    flex-wrap: wrap;
+    /* border: 2px solid red; */
     align-items: center;
     border-right: 1px solid white;
     margin-right: 20px;
@@ -671,6 +674,7 @@ body {
 } */
 .buttn-box{
     height: 2.3rem;
+    /* padding:90px; */
     width: 20%;
     border: 1px solid white;
     background-color: white;
@@ -1073,6 +1077,129 @@ body {
     letter-spacing: 1px;
     padding-top: 10px;
 }
-@media screen {
+@media (max-width:1024px){
+
+    .divisions,.header2,.header3{
+
+        display: none;
+    }
+
+    .header{
+
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .main-product-box{
+
+        display: block;
+        width: 95%;
+    }
+
+    .filter-box{
+
+        width:100%;
+    }
+
+    .products-box{
+
+        width: 100%;
+    }
+    .contact-career-inner-box{
+      
+        display: block;
+
+    }
+
+    .careers{
+
+        width: 100%;
+        display: block;
+    }
+
+    .shop-non-stop-box{
+
+        width: 100%;
+    }
+
+    .reach-out-box{
+
+        width: 100%;
+    }
+
+    .contact-us-box{
+
+        width: 100%;
+    }
+
+
+    .single-product{
+
+        width: 270px;
+    }
+    
+}
+
+@media (max-width:425px){
+
+    .single-product{
+
+        width: 95%;
+    }
+
+    .essential-inner-box{
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    .new-style-inner-box{
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .LP-inner-box{
+
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .LP-left,.LP-right{
+
+        width: 100%;
+    }
+    .register-inner-box{
+        /* border: 3px solid purple; */
+        position: relative;
+    }
+    .reg-div1{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 100px;
+        /* position: relative; */
+        /* border: 2px solid blue; */
+    }
+    
+    .reg-div-R{
+        text-align: center;
+    }
+    .reg-content-4 .buttn-box{
+        font-size: 0.5rem;
+        /* border: 2px solid red; */
+        position:absolute;
+        left:35%;
+        bottom:2%;
+        width:90px;
+        padding:0%;
+        
+    }
+    .buttn-box{
+        /* padding: 0px; */
+        height:1rem;
+    }
     
 }
