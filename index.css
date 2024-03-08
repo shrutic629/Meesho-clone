@@ -19,13 +19,13 @@ body {
 .header{
     /* height: 10vh; */
     width: 100%;
-    padding: 1% 0%;
+    padding: 0.6% 0%;
     border: 1px solid rgb(199, 198, 198);
     display: flex;
     position: sticky;
 }
 .header1{
-    height: 100%;
+    /* height: 100%; */
     width: 16%;
     /* border: 1px solid black; */
     display: flex;
@@ -80,7 +80,8 @@ body {
 .header3-L{
     /* height: 100%; */
     width: 70%;
-    /* border: 1px solid black; */
+    border: 1px solid black;
+    /* padding: 3% 1%; */
     list-style: none;
     display: flex;
     justify-content: center;
@@ -90,6 +91,8 @@ body {
     font-size: 0.8rem;
     justify-content: space-evenly;
     letter-spacing: 1px;
+    /* position: relative; */
+    /* padding-left: 3%; */
 }
 .header3-R{
     /* height: 100%; */
@@ -123,6 +126,54 @@ body {
     font-family: sans-serif;
     font-size: 0.85rem;
 }
+.Download-app{
+    /* padding: 5% 0%; */
+    position: relative;
+    /* padding-left: 3%; */
+}
+
+.header3-R-L:hover{
+    color: rgb(157, 20, 157);
+    font-weight: 600;
+    /* border-bottom: 3px solid rgb(157, 20, 157); */
+}
+.download-dropbox{
+    border: 1px solid grey;
+    background-color: green;
+    padding: 15px;
+    position: absolute;
+    top: 43px;
+    border-top: 3px solid rgb(157, 20, 157);
+    width: 212px;
+    border-radius: 10px;
+    display: none;
+    /* z-index: 1; */
+}
+.download-dropbox h3{
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.download-dropbox img{
+    width: 100%;
+    /* padding-top: 5px; */
+    margin: 10px 0px;
+    border-radius: 5px 5px 5px 5px;
+}
+.header3-L .Download-app:hover{
+    color: rgb(157, 20, 157);
+    font-weight: 600;
+    display: block;
+    
+    /* border-bottom: 3px solid rgb(157, 20, 157); */
+}
+.header3-L .Download-app:hover .download-dropbox{
+    display: block;
+    /* border-bottom: 3px solid rgb(157, 20, 157); */
+}
+
+
+
 .HR{
     height: 1vh;
     width: 100%;
@@ -144,7 +195,7 @@ body {
     position:relative;
 }
 .divisions li{
-    padding: 1%;
+    padding: 1% 0%;
     /* position: relative; */
 }
 .divisions li a{
@@ -198,6 +249,11 @@ body {
     /* font-weight: 600; */
     padding-bottom: 15px;
 }
+.dropdown-1 dl a dd{
+    color: black;
+    font-weight: 400;
+}
+
 
 .header3-L div i{
     margin-right:10px;
@@ -663,7 +719,7 @@ body {
 .single-product{
     border: 1px solid rgb(216, 212, 212);
     height: 20rem;
-    width: 23%;
+    width: 240px;
     margin: 0px 0px 15px 0px;
     border-radius: 10px;
 }
@@ -869,6 +925,7 @@ body {
     color: rgb(97, 97, 115);
     letter-spacing: 1px;
     padding: 12px 5px;
+    /* size: 20px; */
 }
 .show-more{
     /* border: 1px solid black; */
@@ -1015,4 +1072,7 @@ body {
     font-size: 0.75rem;
     letter-spacing: 1px;
     padding-top: 10px;
+}
+@media screen {
+    
 }
